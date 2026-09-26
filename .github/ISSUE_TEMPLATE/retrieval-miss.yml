@@ -1,0 +1,37 @@
+name: Retrieval miss
+description: Report a close or important paper that the workflow failed to surface.
+title: "[Retrieval miss] "
+labels:
+  - retrieval
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: Research request
+      description: Provide the original request or a minimally anonymized equivalent.
+    validations:
+      required: true
+  - type: textarea
+    id: missed-work
+    attributes:
+      label: Missed work
+      description: Give a verified title and stable paper URL or identifier.
+    validations:
+      required: true
+  - type: textarea
+    id: why-close
+    attributes:
+      label: Why this work is close or important
+      description: Explain which problem, mechanism, setting, or claim overlaps.
+    validations:
+      required: true
+  - type: textarea
+    id: discovery
+    attributes:
+      label: Discovery path that would have found it
+      description: Suggest an alias, citation path, venue, author, benchmark, or adjacent field.
+  - type: textarea
+    id: proposed-fix
+    attributes:
+      label: Smallest useful protocol change
+      description: Optional; describe a general correction rather than a paper-specific rule.

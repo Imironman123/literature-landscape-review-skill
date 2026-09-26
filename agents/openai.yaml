@@ -1,0 +1,4 @@
+interface:
+  display_name: "Literature Landscape Review"
+  short_description: "系统检索近期文献、查找最接近工作并评估可辩护的创新贡献边界"
+  default_prompt: "Use $literature-landscape-review to map the literature, find the closest prior work, and define a defensible contribution boundary for my research idea."

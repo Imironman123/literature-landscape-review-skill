@@ -1,0 +1,32 @@
+name: Contribution assessment issue
+description: Report a novelty or value judgment that was too strong, weak, or dismissive.
+title: "[Contribution assessment] "
+labels:
+  - contribution-boundary
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal or research question
+      description: Provide the request or a minimally anonymized equivalent.
+    validations:
+      required: true
+  - type: textarea
+    id: assessment
+    attributes:
+      label: Problematic assessment
+      description: Quote or summarize the conclusion that should change.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Missing comparison or evidence
+      description: Identify the closest work, contribution dimension, or value test that was overlooked.
+    validations:
+      required: true
+  - type: textarea
+    id: better-boundary
+    attributes:
+      label: Better contribution boundary
+      description: Explain what cannot be claimed and what may remain defensible under which evidence.
